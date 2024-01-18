@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-left span img{
+    height: 5.2vw;
+    padding-top: 18px;
+}
+
+.navigation {
+    font-family: var(--font1);
+    /* height: 58px; */
+    /* margin-top: 15px; */
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left {
+    font-size: 20px;
+    display: flex;
+}
+
+.nav-left ul {
+    display: flex;
+    font-family: var(--font2);
+    align-items: center;
+    /* margin-left: 97px; */
+    font-size: 18px;
+}
+
+.nav-left ul li {
+    list-style: none;
+    margin: 0 11px;
+}
+
+.nav-left ul li a {
+    text-decoration: none;
+    color: black;
+    transition: all 0.2s ease-in-out;
+}
+
+.nav-left ul li a:hover {
+    color: var(--main-bg-color);
+    font-size: 20px;
+}
+
+.content {
+    /* height: 388px; */
+    /* background-color: gold; */
+    display: flex;
+}
+
+.content-left {
+    width: 62%;
+    font-family: var(--font2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content-left h1{
+    font-size: 3.7vw;
+}
+
+.content-left p{
+    margin-top: revert;
+}
+
+.content-right {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.content-right img {
+    /* height: 437px;
+    width: 611px; */
+    width: 42vw;
+    border-radius: 30px;
+    /* backdrop-filter: blur(8px); */
+}
+
+#heading{
+    padding-top: 35px;
+}
+
+.articles{
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+}
+
+.article{
+    width: 50%;
+    margin: 25px 0;
+    display: flex;
+    align-items: center;
+}
+
+.article img{
+    filter: drop-shadow(-3px 4px 5px black);
+    height: 200px;
+    width: 272px;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+}
+
+.home-article-content{
+    padding: 25px;
+}
+
+.home-article-content a{
+    text-decoration: none;
+    color: black;
+    font-family: var(--font1);
+    transition: all 0.2s ease-in-out;
+}
+
+.home-article-content a:hover{
+    color: var(--main-bg-color);
+    font-size: 17px;
+}
+
+.footer {
+    margin-top: 60px;
+    height: 40px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--main-bg-color);
+}

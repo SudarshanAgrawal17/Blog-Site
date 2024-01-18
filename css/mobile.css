@@ -1,0 +1,93 @@
+@media screen and (max-width:950px) {
+    .navigation{
+        flex-direction: column;
+        padding-bottom: 35px;
+    }
+
+    .nav-left{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-left span img{
+        height: 7.2vw;
+    }
+
+    .nav-left ul{
+        padding: 10px 0px;
+    }
+
+    .content-left h1{
+        font-size: 5vw;
+    }
+
+    #heading{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 35px;
+    }
+
+    .articles{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home-article-content{
+        padding-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .article{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        width: 85vw;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:500px){
+    .content-left{
+        width: 85vw;
+    }
+
+    .content-right{
+        display: none;
+    }
+
+    .article img{
+        width: 60vw;
+    }
+
+    /* for contact page */
+    .content{
+        justify-content: center;
+    }
+
+    .form-content-left{
+        width: 85%;
+        text-align: center;
+    }
+
+    .contact-img{
+        display: none;
+    }
+
+    .form-box input,textarea{
+        width: 85%;
+    }
+}
+
+@media screen and (max-width:376px){
+    .nav-right form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-right button{
+        margin-top: 10px;
+    }
+}
